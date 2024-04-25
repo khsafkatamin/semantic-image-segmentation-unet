@@ -1,0 +1,48 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pyz
+*.pyzw
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Datasets
+*.csv
+*.tsv
+*.xlsx
+
+# Model files
+*.h5
+*.hdf5
+
+# Environment and configuration files
+.env
+.venv/
+*.env
+*.venv
+*.yaml
+*.yml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+!assets
+!feature_maps
