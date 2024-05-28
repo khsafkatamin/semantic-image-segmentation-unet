@@ -14,7 +14,7 @@ The U-Net model was compiled using the Adam optimizer with a learning rate of 0.
 
 Once the model was trained, we extracted the features of each layer. This allowed us to examine the feature maps generated at different stages of the network, providing insights into the inner workings of the U-Net model.
 
-The full training report can be found [here](link).
+The full training report can be found [here](https://github.com/khsafkatamin/semantic-image-segmentation-unet/blob/main/semantic_image_segmentation.ipynb).
 
 - Training pipeline is adapted from [ika-acdc-notebooks](https://github.com/ika-rwth-aachen/acdc-notebooks/tree/8afe3197db454e2aabd381fb5fc7d22a98f2b23f)
 - Feature map extraction code is inspired by this [blog](https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/)
